@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin: 0 auto;
+  width: 100%;
+  background: #f78d42;
+}
+ul {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1.5rem;
+  transition: all ease 0.3s;
+}
+ul li:hover {
+  background: #f86b06;
+}
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.toggle {
+  width: 100%;
+  background-color: #f86b06;
+  text-align: right;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  box-sizing: border-box;
+  display: none;
+}
